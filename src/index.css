@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+  text-decoration: none;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-form {
+  background: #660666;
+  padding: 3vw;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-form *:not(label) {
+  margin-bottom: 15px;
+}
+
+.main-form__title {
+  color: white;
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 2.5rem;
+}
+
+.main-form__input {
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 2rem;
+}
+
+.main-form__input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.main-form__input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.main-form__input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.main-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.main-form__input:focus {
+  outline: none;
+}
+
+.main-form__button {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2rem;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.main-form__button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.main-form__label {
+  color: white;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=index.css.map */
